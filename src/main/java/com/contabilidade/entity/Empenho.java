@@ -42,7 +42,7 @@ public class Empenho {
 
     @ManyToOne
     @JoinColumn(name = "recurso_id", nullable = false)
-    private Recurso recurso; // A FONTE da despesa
+    private Recurso recurso;
 
     @ManyToOne
     @JoinColumn(name = "usuario_responsavel_id")
